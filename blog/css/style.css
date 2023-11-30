@@ -172,6 +172,7 @@ aside
 
  .subsection {
     margin: 1rem 0rem;
+        display: flex;
  }
  .subsection figure {
     margin: 0rem 0.25rem;
@@ -184,6 +185,7 @@ aside
  .expand {
     font-size: 6px;
     letter-spacing: .035rem;
+    line-break: initial;
 }
 
  /* LINKS AND NAVIGATION*/
@@ -230,5 +232,11 @@ button {
 /*NEED TO FLOAT THE COPYRIGHT TO THE LEFT*/
 
 .attribution {
+    float: right;
+    width: 60%;
+    font-size: .75rem;
+}
+.copyright {
     float: left;
+    font-size: .75rem;
 }
